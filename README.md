@@ -9,6 +9,7 @@ This Gem is customized one from original gem. This is for quite slow update and 
 
 And another customized features will be added. Anyway, Don't mind to use this gem, however, be careful to use. I will stop to maintain this repository after official gem support whole features what I want. and I hope to be. :)
 
+### Introduction
 
 Capistrano tasks for automatic and sensible unicorn + nginx configuraion.
 
