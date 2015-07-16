@@ -1,5 +1,15 @@
 # Capistrano::UnicornNginx
 
+Caption:
+
+This Gem is customized one from original gem. This is for quite slow update and for not supported features. Here is some list I patched:
+
+* Cent OS supports (issue #45 on official)
+* Make nginx listen port configurable(issue #63 on official)
+
+And another customized features will be added. Anyway, Don't mind to use this gem, however, be careful to use. I will stop to maintain this repository after official gem support whole features what I want. and I hope to be. :)
+
+
 Capistrano tasks for automatic and sensible unicorn + nginx configuraion.
 
 Goals of this plugin:
