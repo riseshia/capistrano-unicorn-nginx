@@ -29,6 +29,10 @@ module Capistrano
         test "[ -e #{path} ]"
       end
 
+      def sudo_file_exists?(path)
+        sudo "[ -e #{path} ]"
+      end
+
       def deploy_user
         capture :id, '-un'
       end
