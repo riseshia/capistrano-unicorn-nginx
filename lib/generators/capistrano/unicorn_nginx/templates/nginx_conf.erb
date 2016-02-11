@@ -10,7 +10,7 @@ upstream unicorn_<%= fetch(:nginx_config_name) %> {
 
 <% if fetch(:nginx_use_ssl) %>
 server {
-  listen <?= fetch(:nginx_http_port) ?>;
+  listen <%= fetch(:nginx_http_port) %>;
   server_name <%= fetch(:nginx_server_name) %>;
   rewrite ^(.*) https://$host$1<%= ( fetch(:nginx_https_port)==443 ? "" : (":#{fetch(:nginx_https_port)}") ) %> permanent;
 }
